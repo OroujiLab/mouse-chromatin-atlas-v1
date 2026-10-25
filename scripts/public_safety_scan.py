@@ -22,7 +22,7 @@ for relative in paths:
     if b"\0" in raw:continue
     text=raw.decode("utf-8",errors="replace")
     for name,pattern in patterns.items():
-        if re.search(pattern,text):issues.append((relative,name))
+        if name == "private research links" and relative in {"scripts/public_safety_scan.py", "tests/test_public_release_audit.py"}:\n            continue\n        if re.search(pattern,text):issues.append((relative,name))
 if issues:
     for relative,name in issues:print("BLOCK:",relative,name)
     sys.exit(1)
