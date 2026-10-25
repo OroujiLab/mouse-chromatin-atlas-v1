@@ -10,7 +10,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Reconstruct original cell metadata with checksum verification
+      - name: Reconstruct cells and verify source Git blob
         run: python3 scripts/assemble_cells.py
-      - name: Validate atlas data and required files
+      - name: Core release integrity
         run: python3 scripts/validate_release.py
+      - name: Scientific data and citation regression tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Interval comparison unit tests
+        run: node --test tests/regions.test.cjs
+      - name: Install browser testing tools
+        run: |
+          npm install --no-save playwright-core@1.56.1
+          npx playwright@1.56.1 install chromium
+      - name: Browser interaction smoke tests
+        run: node --test --test-timeout=90000 tests/browser-smoke.cjs tests/atlas-real-smoke.cjs
