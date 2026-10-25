@@ -1,0 +1,36 @@
+{
+  "schema_version": "atlas-cells-v1",
+  "source": "Mouse9Tissues_cell_metadata_UMAP_48385cells.csv",
+  "source_sha256": "dacc0776925b1867411eedbaa8b6d7e8ba7ebd606d8aa127bf68c3ad78e27b24",
+  "genome_build": "mm10 (study context; not encoded in UMAP CSV)",
+  "cells": 48385,
+  "tissues": 9,
+  "clusters": 50,
+  "named_cell_types": 28,
+  "unassigned_cells": 28,
+  "coordinate_status": "Source UMAP_1 and UMAP_2 values copied as CSV strings, unchanged",
+  "cell_order": "Preserved from source CSV",
+  "cell_count_note": "48,385 cells in this curated browser dataset; see source provenance and publication for study-wide totals",
+  "files": {
+    "cells.csv": {
+      "bytes": 4326230,
+      "sha256": "1df5fdeaf37b2f166eb0aeb8ebcb9ac7039cf6e90eb947a7e10dfce7f25bdd9c"
+    },
+    "celltype_counts.csv": {
+      "bytes": 656,
+      "sha256": "b5ce9ae571784b43348af73407ee48a710b6175ef65beeb62333139caef6f1f8"
+    },
+    "cluster_mapping.csv": {
+      "bytes": 1029,
+      "sha256": "dbe9f1ff4bb08eaa09ce398479b219be2d1ca3c639c9267f002001095e5daba9"
+    },
+    "tissue_celltype_counts.csv": {
+      "bytes": 2896,
+      "sha256": "4260696ecc1f8c6871e627633786ab24e03e150403ddde3071a0e8adde397809"
+    },
+    "tissue_counts.csv": {
+      "bytes": 126,
+      "sha256": "caf12d9ff842d57548656a4738ca07f44e9b7413802975b2f2401d32d4ad0df3"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "atlas-seacell-assignments-v1",
+  "status": "VALIDATED_SOURCE_DERIVED",
+  "source": "SEACell_metacells.csv",
+  "source_bytes": 9032963,
+  "source_columns": {
+    "cell_id": "x",
+    "seacell": "SEACell",
+    "tissue": "Sample",
+    "source_celltype": "Clusters"
+  },
+  "source_rows": 48385,
+  "source_unique_ids": 48385,
+  "atlas_cell_id_set_verified": true,
+  "atlas_cells": 48385,
+  "seacells": 90,
+  "source_groups_cross_tissue": 67,
+  "source_groups_cross_type": 68,
+  "source_type_mismatch_note": "Source uses Pulmonary alveolar Type II (1052) vs atlas Pulmonary Alveolar Type II and Unknown (28) vs atlas NA; use existing atlas annotations in UI",
+  "scoring_note": "Precomputed SEACell labels; no new clustering or embedding; many SEACells mix tissues and cell types",
+  "files": {
+    "assignments": {
+      "path": "data/seacell_assignments.csv",
+      "bytes": 1834455,
+      "sha256": "770467ad28a67c12f1a833ca931997aa13440116a1c16bd21078ddec97bbb706",
+      "columns": [
+        "cell_id",
+        "seacell"
+      ],
+      "order": "lexicographic cell_id; join by exact cell_id not row index"
+    },
+    "groups": {
+      "path": "data/seacell_groups.csv",
+      "bytes": 1754,
+      "sha256": "8420b0920241d9fece8d0536910c14147988f321b010c36836097e3423db9b85",
+      "columns": [
+        "seacell",
+        "n_cells",
+        "n_tissues",
+        "n_celltypes"
+      ]
+    }
+  }
+}

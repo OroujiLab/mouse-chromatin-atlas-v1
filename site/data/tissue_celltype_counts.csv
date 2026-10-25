@@ -1,0 +1,108 @@
+Sample,CellType,cells
+Brain,Astrocytes,467
+Brain,B Cells,3
+Brain,Cardiomyocytes,2
+Brain,Collecting Duct Cells,9
+Brain,Endothelial Cells,6
+Brain,Fibroblasts,91
+Brain,Macrophages,23
+Brain,Microglial Cells,490
+Brain,NA,28
+Brain,Neurons,3254
+Brain,Oligodendrocyte,1504
+Brain,Oligodendrocyte Precursor Cells,628
+Brain,T Cells,3
+Colon,B Cells,44
+Colon,Cardiomyocytes,24
+Colon,Dendritic Cells,15
+Colon,Endothelial Cells,195
+Colon,Enterocytes,3592
+Colon,Enteroendocrine Cells,76
+Colon,Fibroblasts,250
+Colon,Goblet Cells,679
+Colon,Macrophages,41
+Colon,Mesothelial Cells,3
+Colon,Oligodendrocyte Precursor Cells,12
+Colon,T Cells,48
+Heart,B Cells,400
+Heart,Cardiomyocytes,1030
+Heart,Collecting Duct Cells,2
+Heart,Dendritic Cells,9
+Heart,Endothelial Cells,2242
+Heart,Enterocytes,6
+Heart,Fibroblasts,1751
+Heart,Macrophages,323
+Heart,Mesothelial Cells,168
+Heart,Pancreatic Acinar Cells,1
+Heart,Sinusoidal Endothelial Cells of Liver,10
+Heart,T Cells,177
+Kidney,B Cells,4
+Kidney,Cardiomyocytes,2
+Kidney,Collecting Duct Cells,781
+Kidney,Distal Convoluted Tubule Cells,1523
+Kidney,Endothelial Cells,453
+Kidney,Enterocytes,1
+Kidney,Fibroblasts,233
+Kidney,Macrophages,4
+Kidney,Mesothelial Cells,1
+Kidney,Proximal Tubule Cells,2185
+Kidney,Sinusoidal Endothelial Cells of Liver,8
+Kidney,T Cells,2
+Liver,B Cells,58
+Liver,Endothelial Cells,53
+Liver,Enterocytes,1
+Liver,Fibroblasts,126
+Liver,Hepatocytes,2477
+Liver,Macrophages,69
+Liver,Sinusoidal Endothelial Cells of Liver,139
+Liver,T Cells,48
+Lung,Alveolar Macrophages,678
+Lung,Astrocytes,1
+Lung,B Cells,116
+Lung,Clara Cells,929
+Lung,Dendritic Cells,1
+Lung,Endothelial Cells,700
+Lung,Enteroendocrine Cells,19
+Lung,Fibroblasts,348
+Lung,Hepatocytes,1
+Lung,Macrophages,144
+Lung,Mesothelial Cells,208
+Lung,Neurons,3
+Lung,Oligodendrocyte Precursor Cells,1
+Lung,Pulmonary Alveolar Type I,540
+Lung,Pulmonary Alveolar Type II,1052
+Lung,T Cells,118
+Pancreas,B Cells,71
+Pancreas,Clara Cells,1
+Pancreas,Distal Convoluted Tubule Cells,1
+Pancreas,Endothelial Cells,221
+Pancreas,Fibroblasts,92
+Pancreas,Hepatocytes,1
+Pancreas,Macrophages,157
+Pancreas,Mesothelial Cells,74
+Pancreas,Pancreatic Acinar Cells,4605
+Pancreas,Pancreatic Beta Cells,223
+Pancreas,Proximal Tubule Cells,1
+Pancreas,Sinusoidal Endothelial Cells of Liver,1
+Pancreas,T Cells,37
+Small_Intestine,B Cells,788
+Small_Intestine,Cardiomyocytes,5
+Small_Intestine,Dendritic Cells,140
+Small_Intestine,Endothelial Cells,8
+Small_Intestine,Enterocytes,5215
+Small_Intestine,Enteroendocrine Cells,30
+Small_Intestine,Fibroblasts,9
+Small_Intestine,Goblet Cells,518
+Small_Intestine,Macrophages,71
+Small_Intestine,Mesothelial Cells,8
+Small_Intestine,Paneth Cells,298
+Small_Intestine,T Cells,546
+Spleen,B Cells,2846
+Spleen,Dendritic Cells,481
+Spleen,Endothelial Cells,32
+Spleen,Enterocytes,3
+Spleen,Fibroblasts,8
+Spleen,Macrophages,603
+Spleen,Pancreatic Acinar Cells,1
+Spleen,Sinusoidal Endothelial Cells of Liver,1
+Spleen,T Cells,656

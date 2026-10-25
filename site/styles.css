@@ -1,0 +1,58 @@
+:root{font-family:"Inter",Arial,sans-serif;font-weight:400;color:#2c2c2c;background:#fcfcfc;--primary:#0471ce;--secondary:#59b1fc;--soft:#b9defc;--ink:#2c2c2c;--muted:#626e78;--border:#d9e5ef;--panel:#f7fbff}*{box-sizing:border-box}body{margin:0}a{color:#0471ce}button,select,input{font:inherit}button{cursor:pointer;border:1px solid #cad9e7;border-radius:8px;padding:10px 14px;background:#fff;color:#12528b;font-weight:500}button:disabled{opacity:.45;cursor:not-allowed}button:hover:not(:disabled){border-color:#0471ce;background:#f4faff}button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid #0471ce;outline-offset:2px}header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:17px max(24px,calc((100vw - 1230px)/2));background:#fff;border-bottom:1px solid #e5edf5}.brand{display:flex;align-items:center;gap:13px;min-width:0}.brand strong{display:block;letter-spacing:-.35px;font-family:"DM Sans",Arial,sans-serif;font-weight:600}.brand small{display:block;color:#748492;font-size:11px;margin-top:4px}.brand-logo{display:block;width:52px;height:44px;object-fit:contain;flex:none}nav{display:flex;gap:20px}nav a{text-decoration:none;font-size:13px}main{max-width:1250px;margin:auto;padding:0 24px}.hero{padding:66px 38px 44px;background:linear-gradient(115deg,#edf6ff,#fcfcfc 75%);border-bottom:1px solid #dae8f4}.eyebrow{color:#55788f;letter-spacing:1.7px;font-size:10px;font-weight:600}h1{font-family:"DM Sans",Arial,sans-serif;line-height:1.11;letter-spacing:-1.75px;font-size:clamp(34px,4vw,55px);font-weight:300;margin:21px 0}h1 em{color:#0471ce;font-weight:300;font-style:normal}.hero p{max-width:670px;color:#596d7b;line-height:1.7;font-weight:350}.metrics{display:flex;gap:32px;flex-wrap:wrap;margin-top:35px}.metrics span{font-size:12px;color:#647683}.metrics b{font-size:19px;color:#12528b;margin-right:5px;font-weight:600}.notice{background:#f0f7fd;color:#375773;border:1px solid #d4e7f7;padding:16px 20px;margin:28px 0;border-radius:9px;line-height:1.6;font-size:13px}.tabs{display:flex;gap:20px;border-bottom:1px solid #d9e5ef;margin-bottom:23px;overflow:auto}.tabs button{border:0;border-radius:0;background:transparent;padding:15px 6px;color:#657685;white-space:nowrap;font-weight:400}.tabs button.active{color:#0471ce;border-bottom:2px solid #0471ce;font-weight:600}.pane{display:none}.pane.active{display:block}.grid{display:grid;grid-template-columns:minmax(240px,290px) minmax(0,1fr);gap:22px}.panel{border:1px solid #e0eaf3;background:#fff;border-radius:12px;padding:25px;margin-bottom:22px;box-shadow:0 3px 18px #284f7908}.panel h2{font-family:"DM Sans",Arial,sans-serif;font-size:20px;font-weight:500;margin:10px 0 20px}.panel p{line-height:1.68;color:#627481}.panelhead{display:flex;align-items:center;justify-content:space-between;gap:14px}.panelhead strong{color:#416c8a;font-size:12px}label{display:block;font-size:13px;font-weight:500;margin:16px 0 9px}select,input{border:1px solid #d9e5ef;border-radius:7px;padding:10px;background:#fff;width:100%;color:#2c2c2c}.hint{font-size:11px}.plot canvas{display:block;width:100%;height:auto;border:1px solid #e4edf5;background:#fff;border-radius:9px}.plot #plotnote{font-size:12px}#filterzone button{width:100%;margin-top:15px}.inputs{display:grid;grid-template-columns:1fr 1fr 1.5fr auto auto;align-items:end;gap:14px}.inputs label{margin:0}.inputs button{margin-bottom:0}.scroll{overflow:auto;max-height:475px}table{width:100%;border-collapse:collapse;font-size:13px}td,th{text-align:left;border-bottom:1px solid #e5edf5;padding:10px}th{background:#f5f9fd}td{font-variant-numeric:tabular-nums}.pager{display:flex;align-items:center;justify-content:flex-end;gap:14px;margin-top:18px}.samplegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.samplegrid a{display:block;text-decoration:none;border:1px solid #d9e5ef;padding:18px;border-radius:8px;background:#f7fbff}.samplegrid a:hover{border-color:#59b1fc;background:#f0f8ff}.samplegrid span{display:block;font-size:11px;color:#778b9a;margin-top:5px}#composition .bar{display:flex;align-items:center;gap:12px;font-size:12px;margin:9px 0}#composition .bar label{margin:0;width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#composition .track{background:#ebf3fa;height:16px;flex:1;border-radius:3px;overflow:hidden}#composition .fill{height:100%;background:#59b1fc}footer{color:#798c9c;font-size:11px;padding:34px 0 50px}.plottools{display:flex;align-items:center;justify-content:space-between;gap:12px;color:#617e95;font-size:12px;margin:8px 0}.plottools button{padding:6px 10px;font-size:12px}.legend{display:flex;flex-wrap:wrap;gap:6px 15px;margin:12px 0;max-height:120px;overflow:auto}.legend-item{display:flex;align-items:center;gap:5px;font-size:11px;color:#637b90}.legend-item i{width:9px;height:9px;display:inline-block;border-radius:50%;flex-shrink:0}#umap{touch-action:none}@media(max-width:850px){.grid{grid-template-columns:1fr}.inputs{grid-template-columns:1fr 1fr}.hero{padding:42px 22px}.samplegrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:550px){main{padding:0 12px}header{padding:15px}.brand-logo{width:42px;height:36px}nav{gap:10px}.inputs,.samplegrid{grid-template-columns:1fr}.metrics{gap:14px}.panel{padding:17px}}
+
+
+/* Phase 2: lightweight on-demand ArchR gene activity explorer */
+.gene-inputs{grid-template-columns:minmax(180px,1fr) minmax(180px,1fr) auto;max-width:850px;gap:16px;margin:18px 0}
+.gene-plot-wrap{max-width:900px;margin-top:15px}
+#gene-umap{display:block;width:100%;height:auto;background:#fff;border:1px solid var(--border);border-radius:10px}
+.gene-scale{display:flex;align-items:center;gap:12px;max-width:850px;margin:12px 0 18px;font-size:11px;color:#637b90}
+.gene-gradient{height:11px;flex:1;border:1px solid #d9e5ef;border-radius:20px;background:linear-gradient(90deg,#e6ebf0 0%,#b9defc 20%,#59b1fc 55%,#0471ce 100%)}
+#gene-status{min-height:1.3em;font-size:12px}
+#gene-export{margin:8px 0 3px}
+@media(max-width:650px){.gene-inputs{grid-template-columns:1fr}.gene-scale{gap:6px}}
+
+/* Phase 3: descriptive statistics for published BED intervals. */
+.region-stats{display:flex;flex-wrap:wrap;gap:12px 18px;margin:15px 0;color:#637b90;font-size:12px}
+.region-stat{display:inline-flex;align-items:baseline;gap:5px;background:#f5faff;border:1px solid #d9e5ef;border-radius:7px;padding:8px 11px}
+.region-stat strong{font-size:15px;color:#12528b;font-weight:600}
+#peaks a{white-space:nowrap}
+
+/* Phase 4D: heterogeneous SEACell groups, highlighted against the atlas UMAP. */
+#metacell-filter{margin-top:19px;padding-top:16px;border-top:1px solid #d9e5ef}
+.metacell-composition-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+.metacell-composition-grid h3{font:500 15px "DM Sans",Arial,sans-serif;color:#375773}
+.metacell-composition-grid .bar{display:flex;align-items:center;gap:11px;margin:10px 0;font-size:12px}
+.metacell-composition-grid .bar label{width:180px;margin:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:400}
+.metacell-composition-grid .track{height:14px;flex:1;background:#eaf1f8;border-radius:4px;min-width:35px}
+.metacell-composition-grid .fill{height:100%;background:#59b1fc;border-radius:4px}
+.metacell-composition-grid .bar span{min-width:93px;text-align:right;font-variant-numeric:tabular-nums;color:#637b90}
+#metacell-export{margin-top:20px}
+@media(max-width:850px){.metacell-composition-grid{grid-template-columns:1fr}}
+
+/* Phase 5C: semantic tab focus and keyboard-accessible UMAP actions. */
+.tabs [role="tab"]:focus-visible{outline:2px solid #0471ce;outline-offset:-3px}
+[role="tabpanel"]:focus-visible{outline:2px solid #0471ce;outline-offset:2px}
+.plot-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:6px}
+#umap:focus-visible{outline:2px solid #0471ce;outline-offset:3px}
+@media(max-width:650px){
+ .plottools{flex-wrap:wrap}
+ .plot-actions{width:100%;justify-content:flex-start}
+}
+
+/* Phase 5C: meet normal-text contrast targets on white/light-blue surfaces.
+ * #4e6578 yields >= 5.8:1 on #f7fbff (WCAG AA target 4.5:1).
+ */
+.brand small,footer,.legend-item,.gene-scale,.region-stats,.region-stat,
+.metacell-composition-grid .bar span,.plottools,.hint{color:#4e6578}
+
+/* Compact native citation menu; no JavaScript or external service needed. */
+header nav{align-items:center;flex-wrap:wrap}
+.cite-menu{position:relative;font-size:13px}
+.cite-menu summary{list-style:none;cursor:pointer;color:#12528b;border:1px solid var(--border);border-radius:7px;padding:6px 10px;font-weight:500;white-space:nowrap}
+.cite-menu summary::-webkit-details-marker{display:none}
+.cite-menu summary:focus-visible{outline:2px solid #0471ce;outline-offset:2px}
+.cite-menu summary:hover,.cite-menu[open] summary{background:#f0f7fd;border-color:#59b1fc}
+.citation-links{position:absolute;right:0;top:calc(100% + 7px);z-index:40;min-width:235px;background:#fff;border:1px solid var(--border);border-radius:9px;box-shadow:0 12px 30px #1f43601f;padding:5px;display:flex;flex-direction:column;gap:0}
+.citation-links a{display:block;padding:10px 12px;color:#12528b;white-space:nowrap;border-radius:6px;text-decoration:none}
+.citation-links a:hover,.citation-links a:focus-visible{background:#edf6ff}
+@media(max-width:550px){header nav{gap:8px}.citation-links{right:0;max-width:calc(100vw - 22px)}}

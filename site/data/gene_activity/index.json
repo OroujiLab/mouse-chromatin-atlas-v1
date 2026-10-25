@@ -1,0 +1,84 @@
+{
+  "schema": "atlas-gene-activity-index-v1",
+  "cells": 48385,
+  "source": "gene_scores.csv",
+  "source_header_sha256": "cd26bab517227f1e287e375447a6f1012b6383da333e58b244eb66fbd2dcdb09",
+  "source_export": "Direct ArchR GeneScoreMatrix from published figure_5.R",
+  "score_interpretation": "ATAC-derived ArchR gene activity, not RNA expression",
+  "processing_note": "Standard ArchR GeneScoreMatrix defaults inferred from published preprocessing/export scripts; no additional transformation applied by the atlas",
+  "cell_order": "Exact order of site/data/cells.csv (from validated selected-gene extractor)",
+  "display": "Nonzero score color clipped at per-gene positive 99th percentile (visual only); original values unchanged",
+  "status": "VALIDATED_CURATED_RELEASE_DATA",
+  "genes": {
+    "Alb": {
+      "bytes": 217113,
+      "sha256": "52687e51d9a3ac84a841fc48bb0ec6fd75308c27bc17a9b4a43d45cd38f824c5",
+      "nonzero": 12460,
+      "min": 0,
+      "max": 51.336
+    },
+    "Col1a1": {
+      "bytes": 228466,
+      "sha256": "a6e55e1a67c8c40f562279fdb349ae06dde1791828c10f6d37949913105e6b09",
+      "nonzero": 18433,
+      "min": 0,
+      "max": 34.384
+    },
+    "Epcam": {
+      "bytes": 246717,
+      "sha256": "23f8550fe83ee7550487a5ea7cf25e5a8ad36adffd4bfee5358d4c53af18ebd2",
+      "nonzero": 28037,
+      "min": 0,
+      "max": 41.539
+    },
+    "Ins1": {
+      "bytes": 214599,
+      "sha256": "a7039877a7ae71e449bfe663f9c13b658ab4f58afb5d65bef20d86ceeb767b60",
+      "nonzero": 11068,
+      "min": 0,
+      "max": 61.439
+    },
+    "Mbp": {
+      "bytes": 259384,
+      "sha256": "b6acf3bada4ef349d038910f6bbabfa0610c8622404dd1f4ee53cdc6be0b42bf",
+      "nonzero": 34661,
+      "min": 0,
+      "max": 44.828
+    },
+    "Pecam1": {
+      "bytes": 249807,
+      "sha256": "4404599e5094777c4383f27ae3e1b6caa45e6c58795e7c645d68a481b6c4e8cb",
+      "nonzero": 29654,
+      "min": 0,
+      "max": 38.913
+    },
+    "Ptprc": {
+      "bytes": 242269,
+      "sha256": "d3460eca2f155b46a9418245eccf33036ee554874b117fc5f0681c7f22f1affc",
+      "nonzero": 25721,
+      "min": 0,
+      "max": 31.831
+    },
+    "Sftpc": {
+      "bytes": 207503,
+      "sha256": "308b49a496c3b1967cc1224404e5239056fe7d096896146999421b9192eaf00e",
+      "nonzero": 7291,
+      "min": 0,
+      "max": 32.103
+    },
+    "Slc34a1": {
+      "bytes": 220175,
+      "sha256": "733dc1c9dcd8d23c92d09f714d39158f9b87568a759b5956b03642e0de85eb85",
+      "nonzero": 14009,
+      "min": 0,
+      "max": 27.365
+    },
+    "Tnnt2": {
+      "bytes": 212970,
+      "sha256": "3b2093c198234282a487f3675e62682fcf0186875a985dd9175995fa6fa628ff",
+      "nonzero": 10250,
+      "min": 0,
+      "max": 36.177
+    }
+  }
+}

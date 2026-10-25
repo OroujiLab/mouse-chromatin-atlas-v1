@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite the original Communications Biology article when using the atlas data."
+title: Mouse Chromatin Atlas
+type: software
+version: 1.0.0
+date-released: 2026-10-25
+authors:
+  - name: Epigenome Lab
+repository-code: https://github.com/OroujiLab/mouse-chromatin-atlas-v1
+url: https://atlas.epigenomelab.com/
+license: MIT
+preferred-citation:
+  type: article
+  title: Chromatin accessibility landscapes define stromal cell identities across tissues
+  authors:
+    - given-names: "Amin"
+      family-names: Nooranikhojasteh
+    - given-names: "Ghazaleh"
+      family-names: Tavallaee
+    - given-names: "Nicholas"
+      family-names: Khuu
+    - given-names: "Shu Yi"
+      family-names: Shen
+    - given-names: "Shaida"
+      family-names: Ouladan
+    - given-names: "Ayush"
+      family-names: Raman
+    - given-names: "Elias"
+      family-names: Orouji
+  journal: Communications Biology
+  year: 2026
+  volume: 9
+  issue: 1
+  start: '480'
+  doi: 10.1038/s42003-026-09720-w
+  url: https://doi.org/10.1038/s42003-026-09720-w
