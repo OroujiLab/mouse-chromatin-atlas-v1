@@ -54,7 +54,9 @@ This is a **clean release repository** without the private development repositor
 
 Nooranikhojasteh A, Tavallaee G, Khuu N, et al. **Chromatin accessibility landscapes define stromal cell identities across tissues.** *Communications Biology* **9**, 480 (2026). https://doi.org/10.1038/s42003-026-09720-w.
 
-[Download BibTeX](site/citation.bib) · [Download RIS/EndNote](site/citation.ris) · [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE286329)
+[![BibTeX](https://img.shields.io/badge/Cite-BibTeX-0471CE)](site/citation.bib) [![RIS / EndNote](https://img.shields.io/badge/Cite-RIS%20%2F%20EndNote-1487AF)](site/citation.ris) [![PubMed](https://img.shields.io/badge/Cite-PubMed-4361B8)](https://pubmed.ncbi.nlm.nih.gov/41735542/)
+
+[Download BibTeX](site/citation.bib) · [Download RIS/EndNote](site/citation.ris) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/41735542/) · [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE286329)
 
 ## License
 
